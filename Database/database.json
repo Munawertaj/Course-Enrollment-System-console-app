@@ -1,0 +1,182 @@
+{
+    "adminOperations": [
+        "1: Create Course",
+        "2: Update Course",
+        "3: Delete Course",
+        "4: List of Courses",
+        "5: List of Students",
+        "6: Log out"
+    ],
+    "studentOperations": [
+        "1: List of Courses",
+        "2: Enroll a course",
+        "3: Unenroll a course",
+        "4: Show enrolled courses",
+        "5: Show unenrolled courses",
+        "6: Delete your account",
+        "7: Log out"
+    ],
+    "admins": [
+        {
+            "name": "taj",
+            "id": 1,
+            "username": "taj",
+            "password": "1234"
+        }
+    ],
+    "students": [
+        {
+            "name": "Rahim",
+            "id": 100,
+            "username": "rahim",
+            "password": "1234",
+            "enrolled": [
+                {
+                    "name": "Operating System",
+                    "id": "CSE4231"
+                },
+                {
+                    "name": "Compiler Design",
+                    "id": "CSE3141"
+                }
+            ],
+            "unenrolled": [
+                {
+                    "name": "Discrete Mathematics",
+                    "id": "CSE2131"
+                },
+                {
+                    "name": "Digital System Design",
+                    "id": "CSE2111"
+                },
+                {
+                    "name": "Computer Networks",
+                    "id": "CSE3151"
+                }
+            ]
+        },
+        {
+            "name": "opi",
+            "id": 125,
+            "username": "opi",
+            "password": "1234",
+            "enrolled": [
+                {
+                    "name": "Database Management Systems",
+                    "id": "CSE3121"
+                },
+                {
+                    "name": "Digital Signal Processing",
+                    "id": "CSE3131"
+                }
+            ],
+            "unenrolled": []
+        },
+        {
+            "name": "sagor",
+            "id": 299,
+            "username": "sagor",
+            "password": "1234",
+            "enrolled": [
+                {
+                    "name": "Introduction to Computer Systems",
+                    "id": "CSE1111"
+                },
+                {
+                    "name": "Digital Electronics",
+                    "id": "CSE1211"
+                }
+            ],
+            "unenrolled": [
+                {
+                    "name": "Computer Graphics",
+                    "id": "CSE3221"
+                }
+            ]
+        },
+        {
+            "name": "fahim",
+            "id": 399,
+            "username": "fahim",
+            "password": "1234",
+            "enrolled": [
+                {
+                    "name": "Digital Electronics",
+                    "id": "CSE1211"
+                }
+            ],
+            "unenrolled": [
+                {
+                    "name": "Discrete Mathematics",
+                    "id": "CSE2131"
+                }
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "name": "Operating System",
+            "id": "CSE4231"
+        },
+        {
+            "name": "Computer Networks",
+            "id": "CSE3151"
+        },
+        {
+            "name": "Computer Graphics",
+            "id": "CSE3221"
+        },
+        {
+            "name": "Data Structure",
+            "id": "CSE2121"
+        },
+        {
+            "name": "Discrete Mathematics",
+            "id": "CSE2131"
+        },
+        {
+            "name": "Digital System Design",
+            "id": "CSE2111"
+        },
+        {
+            "name": "Object Oriented Programming",
+            "id": "CSE1221"
+        },
+        {
+            "name": "Structural Programming Language",
+            "id": "CSE1121"
+        },
+        {
+            "name": "Introduction to Computer Systems",
+            "id": "CSE1111"
+        },
+        {
+            "name": "Digital Electronics",
+            "id": "CSE1211"
+        },
+        {
+            "name": "Theory of Computation",
+            "id": "CSE2211"
+        },
+        {
+            "name": "System Analysis and Design",
+            "id": "CSE3111"
+        },
+        {
+            "name": "Database Management Systems",
+            "id": "CSE3121"
+        },
+        {
+            "name": "Digital Signal Processing",
+            "id": "CSE3131"
+        },
+        {
+            "name": "Compiler Design",
+            "id": "CSE3141"
+        },
+        {
+            "name": "Software Engineering",
+            "id": "CSE3211"
+        }
+    ]
+}
